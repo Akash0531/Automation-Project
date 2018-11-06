@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DikshaLynx">
+  <test thread-count="5" name="Validation">
+    <classes>
+      <class name="testScripts.ITAssetsModule"/>
+      <class name="testScripts.SalaryReconciliationModule"/>
+      <class name="testScripts.EmployeeOnboardModule"/>
+      <class name="testScripts.QplbHdfcReports"/>
+      <class name="testScripts.ReimbursementModule"/>
+      <class name="utilityLibrary.FileUpload"/>
+      <class name="testScripts.ITSupportModule"/>
+      <class name="testScripts.LeavesModule"/>
+      <class name="testScripts.QPLBModule"/>
+      <class name="testScripts.FestivalWishesModule"/>
+      <class name="testScripts.AppraisalsModule"/>
+      <class name="testScripts.PayslipModule"/>
+      <class name="testScripts.TestingClass"/>
+      <class name="testScripts.PerdiemReconciliation"/>
+      <class name="testScripts.salesDriveModule"/>
+      <class name="testScripts.ClientsModule"/>
+      <class name="testScripts.EmployeeModule"/>
+      <class name="obj.Repository.RMGHelpdeskObjects"/>
+      <class name="testScripts.Refferafriendmodule"/>
+      <class name="testScripts.RollOnModule"/>
+      <class name="testScripts.ManageAppraisalsModule"/>
+      <class name="testScripts.InsuranceModule"/>
+      <class name="testScripts.ServiceRequestModule"/>
+      <class name="testScripts.FBPModule"/>
+    </classes>
+  </test> <!-- Validation -->
+</suite> <!-- DikshaLynx -->
